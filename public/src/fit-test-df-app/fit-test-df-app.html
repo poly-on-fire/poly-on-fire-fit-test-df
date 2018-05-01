@@ -1,0 +1,32 @@
+<link rel="import" href="../../bower_components/polymer/polymer-element.html">
+
+<dom-module id="fit-test-df-app">
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+    </style>
+    <h2>Hello [[prop1]]!</h2>
+  </template>
+
+  <script>
+    /**
+     * @customElement
+     * @polymer
+     */
+    class FitTestDfApp extends Polymer.Element {
+      static get is() { return 'fit-test-df-app'; }
+      static get properties() {
+        return {
+          prop1: {
+            type: String,
+            value: 'fit-test-df-app'
+          }
+        };
+      }
+    }
+
+    window.customElements.define(FitTestDfApp.is, FitTestDfApp);
+  </script>
+</dom-module>

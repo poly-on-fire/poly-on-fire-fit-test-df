@@ -1,0 +1,7 @@
+{
+  "name": "fit-test-df",
+  "short_name": "fit-test-df",
+  "description": "Fit test for customer match to dataFundamentals",
+  "start_url": "/",
+  "display": "standalone"
+}
